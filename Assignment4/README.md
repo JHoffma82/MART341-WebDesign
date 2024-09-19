@@ -1,0 +1,6 @@
+Web browsers function by retrieving, interpreting and displaying content. Behind the scenes, web browsers convert URl's into IP's, communicate with servers and receive HTML to create the desired website.
+The Document Object Model is the programming interface used for HTML and XML files. DOM functions in a tree-like hierarchy of documents to function more dynamically and to make it easier to update content.
+Hyper Text Markup Language (HTML) is the most common used markup language today for web pages by identifying content and structure by using tags. Extensible Markup Language (XML) allows user to create custom tags instead of HTML that uses predetermind tags, this allows for more flexibility to retirieve and store data. Extensible Hyper Text Markup Language (XHTM) is a fusion of HTML and XML, it utilizes the basic structure of HTML, it allows custom tags ala XML, but must adhere to XML rules.
+The four essential elements of an HTML are DOCTYPE,html root, head and body.
+The index.html file is the default for a webpage and is accessed through the websites' root url. 
+Top naming for clean and organized code includes using clear and descriptive names, be consistent when using conventions and use the right suffixes and prefixes.
