@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+      <title>Urban Homesteading: Tasks</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <style>
+        body {background-color: antiquewhite;}
+        h1, h3 {color: forestgreen}
+        h2, p {color:black}
+table {
+    width: 100%
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid blanchedalmond;
+    padding: 8px;
+}
+th {
+    background-color: lightgreen;
+color: white;
+}
+tr: :nth-child(even) {
+    background-color: #f9f9f9;
+}
+       </style>
+        
+    </head>
+    <body>
+        <a style="float: right; padding: 10px" href="index.html">Home</a>
+        <a style="float: right; padding: 10px" href="tasks.html">Gardening</a>
+        <a style="float: right; padding: 10px" href="homestead.html">Homesteading</a>
+
+        <h1 style="text-align: left;">Beloved Urban Homesteading</h1>
+
+        <img src="aimee_garden02.jpg" alt="Backside of garden" title="Aimee's garden 2" width="33%" height="auto" />
+        <img src="pickedtomatos.jpg" alt="Yummy tomatoes" title="Nature's candy" width="33%" height="auto" />
+        <img src="veggie_booty.jpg" alt="Behold fruits of labor" title="Veggie harvest 01" width="33%" height="auto" />
+    
+    <h3 style="text-align:center;">Gardening Tasks</h3>
+
+    <table>
+        <tr>
+            <th></th>
+            <th scope="col">Tasks</th>
+            <th scope="col">Completed</th>
+        </tr>
+        <tr>
+            <th scope="row">Establish where to grow</th>
+            <td>Utilize the most with available space with ideal lighting</td>
+            <td><input type="checkbox" id="task1"></td>
+        </tr>
+        <tr>
+            <th scope="row">Decide what plants to grow</th>
+            <td>Based on space and lighting establish what plants can be grown</td>
+            <td><input type="checkbox" id="task2"></td>
+        </tr>
+        <tr>
+            <th scope="row">Acquire soil and seeds</th>
+            <td>Make a list of highest priority plants based on plant choice and soil needs</td>
+            <td><input type="checkbox" id="task3"></td>
+        </tr>
+        <tr>
+            <th scope="row">Germinate seeds, till or fill pots</th>
+            <td>Begin seeed germination, till garden or fill pots with soil</td>
+            <td><input type="checkbox" id="task4"></td>
+        </tr>
+    </table>
+    
+    <form action="mailto:jared.hoffman@umconnect.umt.edu" method="post" enctype="text/plain"></form>
+    <h3 style="text-align: center;">Suggestions:</h3>
+    <fieldset>
+    <legend>Homesteading Suggestions:</legend>
+    <label>Your Email:<br />
+    <input type="email" name="email" required /></label>
+    <br />
+    <label>Describe Suggestions:<br />
+    <textarea name="description" rows="4" cols="50" placeholder="Put description here..." required></textarea></label>
+</fieldset>
+
+<br />
+<input type="Submit" value="Submit Suggestion" />
+</form>
+ 
+
+
+    </body>
+</html>
